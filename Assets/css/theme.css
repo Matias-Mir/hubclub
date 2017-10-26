@@ -10,6 +10,7 @@ a {
 ul {    
     list-style: none;
     margin: 0px;
+    padding: 0px;
 }
 
 .container {
@@ -19,6 +20,7 @@ ul {
 /* Navegador Horizontal */
 
 .nav-horizontal {
+    width: 100%;
     margin: 0px;
     height: 100px;
     padding: 0px;
@@ -41,6 +43,8 @@ ul {
     margin-top: 20px;
     margin-left: 25px;
     padding: 0;
+    position: fixed;
+    overflow: hidden;
 }
 
 .menuh {
@@ -122,5 +126,5 @@ ul {
 /*Cuerpo*/
 
 .body-wrapper {
-    background-color: darkslategray;
+    //background-color: darkslategray;
 }
