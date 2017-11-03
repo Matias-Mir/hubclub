@@ -1,0 +1,87 @@
+body {
+  background: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+}
+
+.header {
+  //background: blue;
+  //border-bottom: 1px #fff solid;
+}
+
+.header h1 {
+  color: #fff;
+  font-size: 75px;
+  font-family: 'Saira Semi Condensed';
+  font-weight: 800;
+  text-align: center;
+  vertical-align: center;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
+.main-nav {
+  //background: blue;
+  text-align: center;
+  margin: 15px 0px;
+  border-bottom: 1px solid white;
+}
+
+
+.nav-list {
+  list-style: none;
+}
+
+.uno{
+  margin: 7px 105px;
+}
+
+.tres {
+  margin: 7px 105px;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Saira Semi Condensed';
+  font-weight: 300;
+  padding: 10px;
+}
+
+.image {
+  margin: 25px;
+}
+
+.image img {
+  border-radius: 40px;
+}
+
+.image figcaption {
+  color: #fff;
+  width: 100%;
+  font-size: 15px;
+  font-family: 'Saira Semi Condensed';
+  font-weight: 800;
+  text-align: center;
+}
+
+.main-content {
+
+}
+
+.main-content p {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Saira Semi Condensed';
+  font-weight: 300;
+  line-height: 30px;
+  word-spacing: 5px;
+}

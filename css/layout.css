@@ -1,0 +1,35 @@
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 150px;
+}
+
+.main-nav {
+  height: 50px;
+
+}
+
+.nav-list {
+  display: inline-block;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.main-we-images {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.image {
+  display: inline-block;
+}
