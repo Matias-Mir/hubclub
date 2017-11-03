@@ -1,5 +1,5 @@
 body {
-  background: #000;
+  background: #fff;
 }
 
 a {
@@ -18,7 +18,7 @@ ul {
 }
 
 .header h1 {
-  color: #fff;
+  color: #000;
   font-size: 75px;
   font-family: 'Saira Semi Condensed';
   font-weight: 800;
@@ -49,7 +49,7 @@ ul {
 }
 
 .nav-link {
-  color: #fff;
+  color: #000;
   font-size: 20px;
   font-family: 'Saira Semi Condensed';
   font-weight: 300;
@@ -65,7 +65,7 @@ ul {
 }
 
 .image figcaption {
-  color: #fff;
+  color: #000;
   width: 100%;
   font-size: 15px;
   font-family: 'Saira Semi Condensed';
