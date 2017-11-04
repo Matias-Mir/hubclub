@@ -12,6 +12,9 @@ ul {
 
 }
 
+.container {
+}
+
 .header {
   //background: blue;
   //border-bottom: 1px #fff solid;
@@ -26,6 +29,10 @@ ul {
   vertical-align: center;
   align-items: center;
   flex: 1 1 auto;
+}
+
+.main-we {
+  //background: blue;
 }
 
 .main-nav {
@@ -52,8 +59,17 @@ ul {
   color: #000;
   font-size: 20px;
   font-family: 'Saira Semi Condensed';
-  font-weight: 300;
+  font-weight: 600;
   padding: 10px;
+  transition: 0.2s ease-in-out 0s;
+}
+
+.nav-link:hover {
+  //background-color: #000;
+  color: #00b6ff;
+  font-size: 21px;
+  transition: 0.2s ease-in-out 0s;
+  border-bottom: 2px solid #00b6ff;
 }
 
 .image {
@@ -69,19 +85,30 @@ ul {
   width: 100%;
   font-size: 15px;
   font-family: 'Saira Semi Condensed';
-  font-weight: 800;
+  font-weight: 300;
   text-align: center;
 }
+
+
 
 .main-content {
 
 }
 
 .main-content p {
-  color: #fff;
+  color: #000;
   font-size: 20px;
   font-family: 'Saira Semi Condensed';
   font-weight: 300;
   line-height: 30px;
   word-spacing: 5px;
+}
+
+.tabla, td, th {
+  border: 3px solid #bc7149;
+  border-collapse: collapse;
+}
+
+.tabla {
+
 }
